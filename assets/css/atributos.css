@@ -1,0 +1,61 @@
+#atributs{
+    display: none;
+    position: fixed;
+    z-index: 15;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #693c3c62;
+    justify-content: center;
+}
+.atributos{
+    z-index: 100;
+    margin: 2% 0;
+    padding: 5%;
+    display: grid;
+    justify-content: space-between;
+    
+}
+#listAtributs{
+    margin: auto;
+    justify-content: center;
+    display: grid;
+    margin-bottom: 80px;
+    padding-right: 50px;
+}
+#olAtributs{
+    width: 110%;
+}
+#listAtributs img{
+    margin-bottom: 10%;
+    max-width: 200px;
+}
+#listAtributs span{
+    text-align: end;
+    margin: 2%;
+    font-weight: bolder;
+}
+#listAtributs li{
+    list-style-type: none;
+    margin: 2% auto;
+    width: 150%;
+}
+.typeAtributs{
+    padding: 0;
+}
+.typeAtributs li:not(:first-child){
+    padding: 0 10%;
+
+}
+.typeChild:not(:first-child){
+display: none;}
+#nameSpan{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+}
+#spanType:not(:first-child){
+    display: none;
+}
